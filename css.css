@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .search {
+    height: 30px;
+  }
+  
+  .content { 
+    min-height: calc(100vh - 70px);
+    max-height: calc(100vh - 70px);
+    display: flex;
+    flex-wrap: wrap;
+
+    overflow-y: auto;
+  }
+  
+  .pagination {
+    height: 40px;
+  }
+  .like{
+    width: 20px;
+   z-index: -4;
+  }
+  button{
+   
+    background-color: white;
+  }
+  .buttons{
+    display: flex;
+    flex-direction: column;
+  }
+  
